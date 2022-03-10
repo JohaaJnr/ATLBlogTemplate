@@ -1,5 +1,5 @@
 import React from 'react'
-import wave from '../../images/wave.svg'
+
 import logo from '../../images/logo.svg'
 const Sidebar = () => {
   return (
@@ -184,19 +184,13 @@ const Sidebar = () => {
                                   </div>
                               </div>
 
-                              {/* widget advertisement */}
-                              <div className="widget no-container rounded text-md-center">
-                                  <span className="ads-title">- Sponsored Ad -</span>
-                                  <a href="#" className="widget-ads">
-                                      <img src={require('../../images/ads/ad-360.png')} alt="Advertisement" />
-                                  </a>
-                              </div>
+                             
 
                               {/* widget tags */}
                               <div className="widget rounded">
                                   <div className="widget-header text-center">
                                       <h3 className="widget-title">Tag Clouds</h3>
-                                      <img src={wave} className="wave" alt="wave" />
+                                     
                                   </div>
                                   <div className="widget-content">
                                       <a href="#" className="tag">#Trending</a>

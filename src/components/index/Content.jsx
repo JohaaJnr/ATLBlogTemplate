@@ -1,6 +1,6 @@
 import React from 'react'
 
-import logo from '../../images/logo.svg'
+
 import Sidebar from './Sidebar'
 const Content = () => {
   return (
@@ -114,13 +114,7 @@ const Content = () => {
 
                           <div className="spacer" data-height="50"></div>
 
-                          {/* horizontal ads */}
-                          <div className="ads-horizontal text-md-center">
-                              <span className="ads-title">- Sponsored Ad -</span>
-                              <a href="#">
-                                  <img src={ require('../../images/ads/ad-750.png') } alt="Advertisement" />
-                              </a>
-                          </div>
+                         
 
                           <div className="spacer" data-height="50"></div>
 

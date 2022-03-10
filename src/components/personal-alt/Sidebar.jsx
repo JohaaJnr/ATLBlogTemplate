@@ -56,7 +56,7 @@ const Sidebar = () => {
 										</a>
 									</div>
 									<div className="details clearfix">
-										<h6 className="post-title my-0"><a href="/Blog-single">An Incredibly Easy Method That Works For All</a></h6>
+										<h6 className="post-title my-0"><a href="/Blog-single">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, autem!</a></h6>
 										<ul className="meta list-inline mt-1 mb-0">
 											<li className="list-inline-item">29 March 2021</li>
 										</ul>
@@ -73,7 +73,7 @@ const Sidebar = () => {
 										</a>
 									</div>
 									<div className="details clearfix">
-										<h6 className="post-title my-0"><a href="/Blog-single">10 Ways To Immediately Start Selling Furniture</a></h6>
+										<h6 className="post-title my-0"><a href="/Blog-single">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, veritatis.</a></h6>
 										<ul className="meta list-inline mt-1 mb-0">
 											<li className="list-inline-item">29 March 2021</li>
 										</ul>
@@ -169,7 +169,7 @@ const Sidebar = () => {
 												</div>
 											</a>
 										</div>
-										<h5 className="post-title mb-0 mt-4"><a href="/Blog-single">5 Easy Ways You Can Turn Future Into Success</a></h5>
+										<h5 className="post-title mb-0 mt-4"><a href="/Blog-single">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, nisi.</a></h5>
 										<ul className="meta list-inline mt-2 mb-0">
 											<li className="list-inline-item"><a href="#">ATL</a></li>
 											<li className="list-inline-item">29 March 2021</li>
@@ -184,13 +184,7 @@ const Sidebar = () => {
 							</div>		
 						</div>
 
-						{/* widget advertisement */}
-						<div className="widget no-container rounded text-md-center">
-							<span className="ads-title">- Sponsored Ad -</span>
-							<a href="#" className="widget-ads">
-								<img style={{ width: '60px', height: '60px'}} src={require('../../images/ads/ad-360.png')} alt="Advertisement" />	
-							</a>
-						</div>
+					
 
 						{/* widget tags */}
 						<div className="widget rounded">

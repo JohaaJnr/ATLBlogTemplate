@@ -184,13 +184,7 @@ const Sidebar = () => {
 							</div>		
 						</div>
 
-						{/* widget advertisement */}
-						<div className="widget no-container rounded text-md-center">
-							<span className="ads-title">- Sponsored Ad -</span>
-							<a href="#" className="widget-ads">
-								<img  src={require('../../images/ads/ad-360.png')} alt="Advertisement" />	
-							</a>
-						</div>
+						
 
 						{/* widget tags */}
 						<div className="widget rounded">

@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../../images/logo.svg'
-import wave from '../../images/wave.svg'
+
+
 import Sidebar from './Sidebar'
 const Content = () => {
   return (

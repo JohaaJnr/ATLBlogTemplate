@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../../images/logo.svg'
-import wave from '../../images/wave.svg'
+
 const Sidebar = () => {
   return (
     <div>
@@ -25,7 +25,7 @@ const Sidebar = () => {
 						<div className="widget rounded">
 							<div className="widget-header text-center">
 								<h3 className="widget-title">Popular Posts</h3>
-								<img src={wave} className="wave" alt="wave" />
+							
 							</div>
 							<div className="widget-content">
 								{/* post */}
@@ -86,7 +86,7 @@ const Sidebar = () => {
 						<div className="widget rounded">
 							<div className="widget-header text-center">
 								<h3 className="widget-title">Explore Topics</h3>
-								<img src={wave} className="wave" alt="wave" />
+								
 							</div>
 							<div className="widget-content">
 								<ul className="list">
@@ -105,7 +105,7 @@ const Sidebar = () => {
 						<div className="widget rounded">
 							<div className="widget-header text-center">
 								<h3 className="widget-title">Newsletter</h3>
-								<img src={wave} className="wave" alt="wave" />
+								
 							</div>
 							<div className="widget-content">
 								<span className="newsletter-headline text-center mb-3">Join 70,000 subscribers!</span>
@@ -123,7 +123,7 @@ const Sidebar = () => {
 						<div className="widget rounded">
 							<div className="widget-header text-center">
 								<h3 className="widget-title">Celebration</h3>
-								<img src={wave} className="wave" alt="wave" />
+								
 							</div>
 							<div className="widget-content">
 								<div className="post-carousel-widget">
@@ -184,19 +184,13 @@ const Sidebar = () => {
 							</div>		
 						</div>
 
-						{/* widget advertisement */}
-						<div className="widget no-container rounded text-md-center">
-							<span className="ads-title">- Sponsored Ad -</span>
-							<a href="#" className="widget-ads">
-								<img src={require('../../images/ads/ad-360.png')} alt="Advertisement" />	
-							</a>
-						</div>
+						
 
 						{/* widget tags */}
 						<div className="widget rounded">
 							<div className="widget-header text-center">
 								<h3 className="widget-title">Tag Clouds</h3>
-								<img src={wave} className="wave" alt="wave" />
+								
 							</div>
 							<div className="widget-content">
 								<a href="#" className="tag">#Trending</a>

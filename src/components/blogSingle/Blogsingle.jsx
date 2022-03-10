@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './Header'
 import Sidebar from './Sidebar'
 import { Link } from 'react-router-dom'
-import wave from '../../images/wave.svg'
+
 import Feeds from './Feeds'
 const Blogsingle = () => {
   return (
@@ -121,7 +121,7 @@ const Blogsingle = () => {
 					{/* section header */}
 					<div className="section-header">
 						<h3 className="section-title">Comments (3)</h3>
-						<img src={wave} className="wave" alt="wave" />
+						
 					</div>
 					{/* post comments */}
 					<div className="comments bordered padding-30 rounded">
@@ -171,7 +171,7 @@ const Blogsingle = () => {
 					{/* section header */}
 					<div className="section-header">
 						<h3 className="section-title">Leave Comment</h3>
-						<img src={wave} className="wave" alt="wave" />
+					
 					</div>
 					{/* comment form */}
 					<div className="comment-form rounded bordered padding-30">

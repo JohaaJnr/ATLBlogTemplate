@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../../images/logo.svg'
-
+import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <div>
@@ -12,35 +12,35 @@ const Header = () => {
 
 				<div className="collapse navbar-collapse">
 					{/* menus */}
-					<ul className="navbar-nav mr-auto">
+                    <ul className="navbar-nav mr-auto">
                             <li className="nav-item dropdown active">
-                             <a className="nav-link dropdown-toggle" href="/">Home</a>
+                             <Link className="nav-link dropdown-toggle" to="/">Home</Link>
                                   <ul className="dropdown-menu">
-                                      <li><a className="dropdown-item" href="/Category">Magazine</a></li>
-                                      <li><a className="dropdown-item" href="/Personal">Personal</a></li>
-                                      <li><a className="dropdown-item" href="/Personal-alt">Personal Alt</a></li>
-                                      <li><a className="dropdown-item" href="/Minimal">Minimal</a></li>
-                                      <li><a className="dropdown-item" href="/classNameic">classNameic</a></li>
+                                      <li><Link className="dropdown-item" to="/Category">Magazine</Link></li>
+                                      <li><Link className="dropdown-item" to="/Personal">Personal</Link></li>
+                                      <li><Link className="dropdown-item" to="/Personal-alt">Personal Alt</Link></li>
+                                      <li><Link className="dropdown-item" to="/Minimal">Minimal</Link></li>
+                                      <li><Link className="dropdown-item" to="/Classic">Classic</Link></li>
                                   </ul>
                               </li>
                               <li className="nav-item">
-                                  <a className="nav-link" href="/Category">Lifestyle</a>
+                                  <Link className="nav-link" to="/Category">Lifestyle</Link>
                               </li>
                               <li className="nav-item">
-                                  <a className="nav-link" href="/Category">Inspiration</a>
+                                  <Link className="nav-link" to="/Category">Inspiration</Link>
                               </li>
                               <li className="nav-item dropdown">
-                                  <a className="nav-link dropdown-toggle" href="#">Pages</a>
+                                  <Link className="nav-link dropdown-toggle" to="#">Pages</Link>
                                   <ul className="dropdown-menu">
-                                      <li><a className="dropdown-item" href="/Category">Category</a></li>
-                                      <li><a className="dropdown-item" href="/Blog-single">Blog Single</a></li>
-                                      <li><a className="dropdown-item" href="/Blog-single-alt">Blog Single Alt</a></li>
-                                      <li><a className="dropdown-item" href="/About">About</a></li>
-                                      <li><a className="dropdown-item" href="/Contact">Contact</a></li>
+                                      <li><Link className="dropdown-item" to="/Category">Category</Link></li>
+                                      <li><Link className="dropdown-item" to="/Blog-single">Blog Single</Link></li>
+                                      <li><Link className="dropdown-item" to="/Blog-single-alt">Blog Single Alt</Link></li>
+                                      <li><Link className="dropdown-item" to="/About">About</Link></li>
+                                      <li><Link className="dropdown-item" to="/Contact">Contact</Link></li>
                                   </ul>
                               </li>
                               <li className="nav-item">
-                                  <a className="nav-link" href="/Contact">Contact</a>
+                                  <Link className="nav-link" to="/Contact">Contact</Link>
                               </li>
                           </ul>
 				</div>
