@@ -1,5 +1,5 @@
 import React from 'react'
-import wave from '../../images/wave.svg'
+
 import logo from '../../images/logo.svg'
 import Sidebar from './Sidebar'
 const Content = () => {
@@ -127,7 +127,7 @@ const Content = () => {
                           {/* section header */}
                           <div className="section-header">
                               <h3 className="section-title">Trending</h3>
-                              <img src={wave} className="wave" alt="wave" />
+                             
                           </div>
 
                           <div className="padding-30 rounded bordered">
@@ -333,7 +333,7 @@ const Content = () => {
                                               </span>
                                               <a href="/Blog-single">
                                                   <div className="inner">
-                                                      <img src={ require('../../images/posts/latest-sm-1.jpg')} alt="post-title" />
+                                                      <img style={{ width: '265px', height: '220px'}} src={ require('../../images/posts/latest-sm-1.jpg')} alt="post-title" />
                                                   </div>
                                               </a>
                                           </div>
@@ -371,7 +371,7 @@ const Content = () => {
                                           <div className="thumb rounded">
                                               <a href="/Blog-single">
                                                   <div className="inner">
-                                                      <img src={require('../../images/posts/latest-sm-2.jpg')} alt="post-title" />
+                                                      <img style={{ width: '265px', height: '220px'}} src={require('../../images/posts/latest-sm-2.jpg')} alt="post-title" />
                                                   </div>
                                               </a>
                                           </div>
@@ -412,7 +412,7 @@ const Content = () => {
                                               </span>
                                               <a href="/Blog-single">
                                                   <div className="inner">
-                                                      <img src={require('../../images/posts/latest-sm-3.jpg')} alt="post-title" />
+                                                      <img style={{ width: '265px', height: '220px'}} src={require('../../images/posts/latest-sm-3.jpg')} alt="post-title" />
                                                   </div>
                                               </a>
                                           </div>
@@ -450,7 +450,7 @@ const Content = () => {
                                           <div className="thumb rounded">
                                               <a href="/Blog-single">
                                                   <div className="inner">
-                                                      <img src={require('../../images/posts/latest-sm-4.jpg')} alt="post-title" />
+                                                      <img style={{ width: '265px', height: '220px'}} src={require('../../images/posts/latest-sm-4.jpg')} alt="post-title" />
                                                   </div>
                                               </a>
                                           </div>
